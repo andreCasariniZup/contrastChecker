@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494F836729880653002C0CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F836629880653002C0CA1 /* AppDelegate.swift */; };
+		494F836929880653002C0CA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F836829880653002C0CA1 /* SceneDelegate.swift */; };
+		494F836B29880653002C0CA1 /* ConstrastCheckerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F836A29880653002C0CA1 /* ConstrastCheckerViewController.swift */; };
+		494F836E29880653002C0CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494F836C29880653002C0CA1 /* Main.storyboard */; };
+		494F837029880654002C0CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494F836F29880654002C0CA1 /* Assets.xcassets */; };
+		494F837329880654002C0CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494F837129880654002C0CA1 /* LaunchScreen.storyboard */; };
+		494F837E29880654002C0CA1 /* ConstrastCheckerTesteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F837D29880654002C0CA1 /* ConstrastCheckerTesteTests.swift */; };
+		494F838829880654002C0CA1 /* ConstrastCheckerTesteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F838729880654002C0CA1 /* ConstrastCheckerTesteUITests.swift */; };
+		494F838A29880654002C0CA1 /* ConstrastCheckerTesteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F838929880654002C0CA1 /* ConstrastCheckerTesteUITestsLaunchTests.swift */; };
+		494F839729880D65002C0CA1 /* ContrastTestes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F839629880D65002C0CA1 /* ContrastTestes.swift */; };
+		494F839929880EAA002C0CA1 /* ButtonContrastCheckerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F839829880EAA002C0CA1 /* ButtonContrastCheckerView.swift */; };
+		494F839C29881264002C0CA1 /* UIColor+toHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F839B29881264002C0CA1 /* UIColor+toHex.swift */; };
+		494F839F298812F1002C0CA1 /* ConstrastChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F839E298812F1002C0CA1 /* ConstrastChecker.swift */; };
+		494F83A4298ABEE6002C0CA1 /* LabelContrastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F83A3298ABEE6002C0CA1 /* LabelContrastView.swift */; };
+		494F83A6298ABF4C002C0CA1 /* LabelContrastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F83A5298ABF4C002C0CA1 /* LabelContrastViewController.swift */; };
+		494F83A8298ABF9A002C0CA1 /* ElementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F83A7298ABF9A002C0CA1 /* ElementsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		494F837A29880654002C0CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494F835B29880652002C0CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494F836229880653002C0CA1;
+			remoteInfo = ConstrastCheckerTeste;
+		};
+		494F838429880654002C0CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494F835B29880652002C0CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494F836229880653002C0CA1;
+			remoteInfo = ConstrastCheckerTeste;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		494F836329880653002C0CA1 /* ConstrastCheckerTeste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstrastCheckerTeste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494F836629880653002C0CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		494F836829880653002C0CA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		494F836A29880653002C0CA1 /* ConstrastCheckerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstrastCheckerViewController.swift; sourceTree = "<group>"; };
+		494F836D29880653002C0CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		494F836F29880654002C0CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494F837229880654002C0CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		494F837429880654002C0CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494F837929880654002C0CA1 /* ConstrastCheckerTesteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstrastCheckerTesteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		494F837D29880654002C0CA1 /* ConstrastCheckerTesteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstrastCheckerTesteTests.swift; sourceTree = "<group>"; };
+		494F838329880654002C0CA1 /* ConstrastCheckerTesteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstrastCheckerTesteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		494F838729880654002C0CA1 /* ConstrastCheckerTesteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstrastCheckerTesteUITests.swift; sourceTree = "<group>"; };
+		494F838929880654002C0CA1 /* ConstrastCheckerTesteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstrastCheckerTesteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		494F839629880D65002C0CA1 /* ContrastTestes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrastTestes.swift; sourceTree = "<group>"; };
+		494F839829880EAA002C0CA1 /* ButtonContrastCheckerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContrastCheckerView.swift; sourceTree = "<group>"; };
+		494F839B29881264002C0CA1 /* UIColor+toHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+toHex.swift"; sourceTree = "<group>"; };
+		494F839E298812F1002C0CA1 /* ConstrastChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstrastChecker.swift; sourceTree = "<group>"; };
+		494F83A3298ABEE6002C0CA1 /* LabelContrastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelContrastView.swift; sourceTree = "<group>"; };
+		494F83A5298ABF4C002C0CA1 /* LabelContrastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelContrastViewController.swift; sourceTree = "<group>"; };
+		494F83A7298ABF9A002C0CA1 /* ElementsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494F836029880653002C0CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F837629880654002C0CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F838029880654002C0CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494F835A29880652002C0CA1 = {
+			isa = PBXGroup;
+			children = (
+				494F836529880653002C0CA1 /* ConstrastCheckerTeste */,
+				494F837C29880654002C0CA1 /* ConstrastCheckerTesteTests */,
+				494F838629880654002C0CA1 /* ConstrastCheckerTesteUITests */,
+				494F836429880653002C0CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494F836429880653002C0CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494F836329880653002C0CA1 /* ConstrastCheckerTeste.app */,
+				494F837929880654002C0CA1 /* ConstrastCheckerTesteTests.xctest */,
+				494F838329880654002C0CA1 /* ConstrastCheckerTesteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494F836529880653002C0CA1 /* ConstrastCheckerTeste */ = {
+			isa = PBXGroup;
+			children = (
+				494F83A22988134B002C0CA1 /* Storyboards */,
+				494F83A12988133A002C0CA1 /* Controllers */,
+				494F83A02988132F002C0CA1 /* Views */,
+				494F839D298812B4002C0CA1 /* Requests */,
+				494F839A2988124F002C0CA1 /* Extensions */,
+				494F836629880653002C0CA1 /* AppDelegate.swift */,
+				494F836829880653002C0CA1 /* SceneDelegate.swift */,
+				494F836F29880654002C0CA1 /* Assets.xcassets */,
+				494F837429880654002C0CA1 /* Info.plist */,
+			);
+			path = ConstrastCheckerTeste;
+			sourceTree = "<group>";
+		};
+		494F837C29880654002C0CA1 /* ConstrastCheckerTesteTests */ = {
+			isa = PBXGroup;
+			children = (
+				494F837D29880654002C0CA1 /* ConstrastCheckerTesteTests.swift */,
+				494F839629880D65002C0CA1 /* ContrastTestes.swift */,
+			);
+			path = ConstrastCheckerTesteTests;
+			sourceTree = "<group>";
+		};
+		494F838629880654002C0CA1 /* ConstrastCheckerTesteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				494F838729880654002C0CA1 /* ConstrastCheckerTesteUITests.swift */,
+				494F838929880654002C0CA1 /* ConstrastCheckerTesteUITestsLaunchTests.swift */,
+			);
+			path = ConstrastCheckerTesteUITests;
+			sourceTree = "<group>";
+		};
+		494F839A2988124F002C0CA1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				494F839B29881264002C0CA1 /* UIColor+toHex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		494F839D298812B4002C0CA1 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				494F839E298812F1002C0CA1 /* ConstrastChecker.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		494F83A02988132F002C0CA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				494F839829880EAA002C0CA1 /* ButtonContrastCheckerView.swift */,
+				494F83A3298ABEE6002C0CA1 /* LabelContrastView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		494F83A12988133A002C0CA1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				494F836A29880653002C0CA1 /* ConstrastCheckerViewController.swift */,
+				494F83A5298ABF4C002C0CA1 /* LabelContrastViewController.swift */,
+				494F83A7298ABF9A002C0CA1 /* ElementsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		494F83A22988134B002C0CA1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				494F836C29880653002C0CA1 /* Main.storyboard */,
+				494F837129880654002C0CA1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494F836229880653002C0CA1 /* ConstrastCheckerTeste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494F838D29880654002C0CA1 /* Build configuration list for PBXNativeTarget "ConstrastCheckerTeste" */;
+			buildPhases = (
+				494F835F29880653002C0CA1 /* Sources */,
+				494F836029880653002C0CA1 /* Frameworks */,
+				494F836129880653002C0CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConstrastCheckerTeste;
+			productName = ConstrastCheckerTeste;
+			productReference = 494F836329880653002C0CA1 /* ConstrastCheckerTeste.app */;
+			productType = "com.apple.product-type.application";
+		};
+		494F837829880654002C0CA1 /* ConstrastCheckerTesteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494F839029880654002C0CA1 /* Build configuration list for PBXNativeTarget "ConstrastCheckerTesteTests" */;
+			buildPhases = (
+				494F837529880654002C0CA1 /* Sources */,
+				494F837629880654002C0CA1 /* Frameworks */,
+				494F837729880654002C0CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494F837B29880654002C0CA1 /* PBXTargetDependency */,
+			);
+			name = ConstrastCheckerTesteTests;
+			productName = ConstrastCheckerTesteTests;
+			productReference = 494F837929880654002C0CA1 /* ConstrastCheckerTesteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		494F838229880654002C0CA1 /* ConstrastCheckerTesteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494F839329880654002C0CA1 /* Build configuration list for PBXNativeTarget "ConstrastCheckerTesteUITests" */;
+			buildPhases = (
+				494F837F29880654002C0CA1 /* Sources */,
+				494F838029880654002C0CA1 /* Frameworks */,
+				494F838129880654002C0CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494F838529880654002C0CA1 /* PBXTargetDependency */,
+			);
+			name = ConstrastCheckerTesteUITests;
+			productName = ConstrastCheckerTesteUITests;
+			productReference = 494F838329880654002C0CA1 /* ConstrastCheckerTesteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494F835B29880652002C0CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					494F836229880653002C0CA1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					494F837829880654002C0CA1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 494F836229880653002C0CA1;
+					};
+					494F838229880654002C0CA1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 494F836229880653002C0CA1;
+					};
+				};
+			};
+			buildConfigurationList = 494F835E29880652002C0CA1 /* Build configuration list for PBXProject "ConstrastCheckerTeste" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 494F835A29880652002C0CA1;
+			productRefGroup = 494F836429880653002C0CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494F836229880653002C0CA1 /* ConstrastCheckerTeste */,
+				494F837829880654002C0CA1 /* ConstrastCheckerTesteTests */,
+				494F838229880654002C0CA1 /* ConstrastCheckerTesteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494F836129880653002C0CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494F837329880654002C0CA1 /* LaunchScreen.storyboard in Resources */,
+				494F837029880654002C0CA1 /* Assets.xcassets in Resources */,
+				494F836E29880653002C0CA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F837729880654002C0CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F838129880654002C0CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494F835F29880653002C0CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494F836B29880653002C0CA1 /* ConstrastCheckerViewController.swift in Sources */,
+				494F836729880653002C0CA1 /* AppDelegate.swift in Sources */,
+				494F839929880EAA002C0CA1 /* ButtonContrastCheckerView.swift in Sources */,
+				494F83A8298ABF9A002C0CA1 /* ElementsTableViewController.swift in Sources */,
+				494F83A6298ABF4C002C0CA1 /* LabelContrastViewController.swift in Sources */,
+				494F839C29881264002C0CA1 /* UIColor+toHex.swift in Sources */,
+				494F836929880653002C0CA1 /* SceneDelegate.swift in Sources */,
+				494F839F298812F1002C0CA1 /* ConstrastChecker.swift in Sources */,
+				494F83A4298ABEE6002C0CA1 /* LabelContrastView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F837529880654002C0CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494F837E29880654002C0CA1 /* ConstrastCheckerTesteTests.swift in Sources */,
+				494F839729880D65002C0CA1 /* ContrastTestes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F837F29880654002C0CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494F838A29880654002C0CA1 /* ConstrastCheckerTesteUITestsLaunchTests.swift in Sources */,
+				494F838829880654002C0CA1 /* ConstrastCheckerTesteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		494F837B29880654002C0CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494F836229880653002C0CA1 /* ConstrastCheckerTeste */;
+			targetProxy = 494F837A29880654002C0CA1 /* PBXContainerItemProxy */;
+		};
+		494F838529880654002C0CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494F836229880653002C0CA1 /* ConstrastCheckerTeste */;
+			targetProxy = 494F838429880654002C0CA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		494F836C29880653002C0CA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494F836D29880653002C0CA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		494F837129880654002C0CA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				494F837229880654002C0CA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		494F838B29880654002C0CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		494F838C29880654002C0CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		494F838E29880654002C0CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConstrastCheckerTeste/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZUP.ConstrastChecker.ConstrastCheckerTeste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		494F838F29880654002C0CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConstrastCheckerTeste/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZUP.ConstrastChecker.ConstrastCheckerTeste;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		494F839129880654002C0CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZUP.ConstrastChecker.ConstrastCheckerTesteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConstrastCheckerTeste.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConstrastCheckerTeste";
+			};
+			name = Debug;
+		};
+		494F839229880654002C0CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZUP.ConstrastChecker.ConstrastCheckerTesteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConstrastCheckerTeste.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConstrastCheckerTeste";
+			};
+			name = Release;
+		};
+		494F839429880654002C0CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZUP.ConstrastChecker.ConstrastCheckerTesteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConstrastCheckerTeste;
+			};
+			name = Debug;
+		};
+		494F839529880654002C0CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZUP.ConstrastChecker.ConstrastCheckerTesteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConstrastCheckerTeste;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494F835E29880652002C0CA1 /* Build configuration list for PBXProject "ConstrastCheckerTeste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494F838B29880654002C0CA1 /* Debug */,
+				494F838C29880654002C0CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494F838D29880654002C0CA1 /* Build configuration list for PBXNativeTarget "ConstrastCheckerTeste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494F838E29880654002C0CA1 /* Debug */,
+				494F838F29880654002C0CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494F839029880654002C0CA1 /* Build configuration list for PBXNativeTarget "ConstrastCheckerTesteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494F839129880654002C0CA1 /* Debug */,
+				494F839229880654002C0CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494F839329880654002C0CA1 /* Build configuration list for PBXNativeTarget "ConstrastCheckerTesteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494F839429880654002C0CA1 /* Debug */,
+				494F839529880654002C0CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494F835B29880652002C0CA1 /* Project object */;
+}

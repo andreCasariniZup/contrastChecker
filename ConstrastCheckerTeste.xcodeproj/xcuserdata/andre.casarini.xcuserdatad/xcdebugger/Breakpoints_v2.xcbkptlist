@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "644CA461-CB28-49BD-9339-8CA40445189F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC7247C1-ABD0-4B44-B24A-AC907B9D350F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConstrastCheckerTesteTests/ContrastTestes.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "checkContrast(element:backgroundColor:foregroundColor:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC7247C1-ABD0-4B44-B24A-AC907B9D350F - 7a2724305136b50d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ConstrastCheckerTesteTests.ContrastCheckerTests.checkContrast(backgroundColor: Swift.String, foregroundColor: Swift.String) -&gt; ()"
+                  moduleName = "ConstrastCheckerTesteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andre.casarini/Documents/XcodeProjects/ConstrastCheckerTeste/ConstrastCheckerTesteTests/ContrastTestes.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "249">
+               </Location>
+               <Location
+                  uuid = "BC7247C1-ABD0-4B44-B24A-AC907B9D350F - 7a2724305136b50d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ConstrastCheckerTesteTests.ContrastCheckerTests.checkContrast(backgroundColor: Swift.String, foregroundColor: Swift.String) -&gt; ()"
+                  moduleName = "ConstrastCheckerTesteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andre.casarini/Documents/XcodeProjects/ConstrastCheckerTeste/ConstrastCheckerTesteTests/ContrastTestes.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "350">
+               </Location>
+               <Location
+                  uuid = "BC7247C1-ABD0-4B44-B24A-AC907B9D350F - 7a27243051364a17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ConstrastCheckerTesteTests.ContrastCheckerTests.checkContrast(backgroundColor: Swift.String, foregroundColor: Swift.String) -&gt; ()"
+                  moduleName = "ConstrastCheckerTesteTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andre.casarini/Documents/XcodeProjects/ConstrastCheckerTeste/ConstrastCheckerTesteTests/ContrastTestes.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "350">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "232531C3-A331-42F5-BBDD-3EE2A89BAF97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConstrastCheckerTeste/Controllers/ElementsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
